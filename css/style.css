@@ -1,2 +1,70 @@
 body {
+  font: color #212121;
+  background-color: var(--background-color);
+}
+/*style zapisane*/
+:root {
+  --hover-color: #2196f3;
+  --background-color: #e5e5e5;
+  --section-color: #ffffff;
+  --other-section-color: #2f303a;
+  --description-color: #757575;
+}
+/*przyciski  link*/
+.order-service-button {
+}
+.order-service-button:hover,
+.order-service-button:focus {
+  background-color: var(--hover-color);
+}
+.filter.button {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6rem;
+}
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--hover-color);
+}
+
+a {
+  color: #212121;
+}
+a:hover,
+a:focus {
+  color: var(--hover-color);
+}
+footer {
+  background-color: var(--other-section-color);
+  color: #ffffff;
+}
+.footer-links {
+  color: rgba(255, 255, 255, 0.6);
+}
+.tel,
+.mail {
+  color: rgba(117, 117, 117, 1);
+}
+.tel:hover,
+.mail:hover,
+.tel:focus,
+.mail:focus {
+  color: var(--hover-color);
+}
+
+/*teksty*/
+.project-title-decription {
+  color: var(--description-color);
+  font-size: 16px;
+}
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+/*sekcje*/
+.efective-solution {
+  background-color: var(--other-section-color);
 }
